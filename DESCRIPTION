@@ -1,0 +1,28 @@
+Package: mixnhreg
+Type: Package
+Title: Mixtures of non-homogeneous linear regression models
+Version: 0.1.0
+Authors@R: c(
+    person(given = "David",
+           family = "Jobst",
+           role = c("aut", "cre"),
+           email = "jobstd@uni-hildesheim.de",
+           comment = c(ORCID = "0000-0002-2014-3530")))
+Maintainer: David Jobst <jobstd@uni-hildesheim.de>
+Description: Infrastructure for estimating mixtures of non-homogeneous linear regression models. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+LinkingTo: 
+    Rcpp,
+    RcppEigen,
+    BH
+Imports: 
+    Rcpp,
+    Formula,
+    parallel,
+    ggplot2,
+    scales
+URL: https://github.com/jobstdavid/mixnhreg
+BugReports: https://github.com/jobstdavid/mixnhreg/issues
