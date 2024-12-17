@@ -209,7 +209,7 @@ update_mstop <- function(object, mstop = "aic") {
 
 
 
-      }, mc.cores = mc.cores)
+      })
       stopCluster(cl)
 
     }

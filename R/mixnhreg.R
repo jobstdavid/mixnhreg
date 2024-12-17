@@ -565,7 +565,7 @@ get_mopt <- function(fit, control, y, X, x, links, loss_fun, grad_fun, nll_fun, 
 
 
 
-      }, mc.cores = mc.cores)
+      })
       stopCluster(cl)
 
     }
